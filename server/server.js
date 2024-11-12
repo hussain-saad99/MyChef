@@ -78,7 +78,8 @@ app.get("/recipeStream", (req, res) => {
 });
 
 async function fetchOpenAICompletionsStream(messages, callback) {
-  const OPENAI_API_KEY = "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";
+  //Enter your API key here
+  const OPENAI_API_KEY = "";
   console.log("OpenAI API Key:", OPENAI_API_KEY);
   const openai = new OpenAI({ apiKey: OPENAI_API_KEY });
 
